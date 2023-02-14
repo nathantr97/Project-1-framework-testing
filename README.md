@@ -1,4 +1,4 @@
-# Bookemons
+# Bookemon <img src="https://raw.githubusercontent.com/nathantr97/Project-1-framework-testing/main/pikachu-pokemon.gif" height="55px" width="55px">
 
 ## Description
 
