@@ -37,10 +37,8 @@ https://github.com/btay786/1-project-to-rule
 
 ## Usage
 
-![alt-img-description](rel-link)
-![alt-img-description](rel-link)
-![alt-img-description](rel-link)
-![alt-img-description](rel-link)
+![alt=Bookemon-demo](Bookemon-demo.gif)
+
 
 ## Collaborators
 
