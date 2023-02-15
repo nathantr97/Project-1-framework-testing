@@ -16,57 +16,90 @@
     <header class="hero has-background-primary-dark">
         <div class="hero-body">
 
-            <p class="title has-text-centered"> Bookemon 📖 </p>
+            <p class="title has-text-centered"> 
+                <img src="pikachu-pokemon.gif" height="60px" width="60px"> Bookemon <img src="pikachu-pokemon.gif" height="60px" width="60px"></p>
         </div>
     </header>
-    <main>
+    <main class="container">
 
-        <div class="box">
-            <label for="txtBookSearch">Enter a book title and Select from list ☞ </label>
 
-            <input id="txtBookSearch" type="text">
+        <div class="card">
+            <div class="card-content">
+                <div class="field">
+                    <label class="label">Enter a book title and Select from list</label>
+                    <div class="control">
+                        <input class="input" id="txtBookSearch" type="text">
+                    </div>
+                </div>
+            </div>
+            
+
+            
         </div>
         <div class="columns">
             <div class="column">
-                <div class="box">
-                    <div class="box-content">
-                        <div class="content">
-                            Book Details
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-                <div class="box">
-                    <div id="divDescription"></div>
-                </div>
                 <div class="card">
                     <div class="card-content">
                         <p class="content">
-                            Time Frame to read books
+                            Book Details
                         </p>
                     </div>
 
                 </div>
 
-                <button class="button is-submit is-fullwidth is-normal is-large">Enter number of pages read</button>
 
-            
+
+                <div class="card">
+                    <div id="divDescription"></div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        
+
+                        <div class="field">
+                            <label class="label">Start Date</label>
+                            <div class="control">
+                                <input class="input" type="date">
+
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Finish Date</label>
+                            <div class="control">
+                                <input class="input" type="date">
+
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <div class="field">
+                    <label class="label">Number of pages read today</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Text input">
+                    </div>
+                  </div>
+                <button class="button is-submit is-fullwidth is-primary is-large">Enter Number of pages read</button>
+
+
             </div>
 
             <div class="column">
-                <table class="table is-fullwidth is-striped">
+                <table class="table is-fullwidth is-striped" id="table">
+
                     <thead>
                         <tr>
                             <th><abbr>Book Title</abbr></th>
-                            <th id="page-number"><abbr># of pages</abbr></th>
-                        
+                            <th><abbr># of pages</abbr></th>
                             <th><abbr> Pokemon </abbr></th>
                         </tr>
                     </thead>
+                    <tbody id="page-number">
+
+                    </tbody>
                 </table>
+                <ul id ="pokemonImage"></ul>
             </div>
         </div>
     </main>
